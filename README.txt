@@ -18,6 +18,7 @@ Steps:
 *	The MKS generates a set of calibration 'microstructures.'
 *	Each has a certain number of elements where each element is randomly assigned a material.
 *	The finite element method (FEM) response for these 'microstructures' are calculated using fem1d.py
+*	The microstructure function for each microstructure is generated
 *	The MKS calibration is performed
 *	A validation microstructure is generated in the same way as the calibration microstructures
 *	The MKS calibration is used to predict the FEM response
